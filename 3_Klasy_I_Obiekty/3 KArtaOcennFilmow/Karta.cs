@@ -8,7 +8,7 @@ namespace _3_KartaOcenFilmow
     class Karta
     {
         //Stan (zmienne -pola)
-        List<float> oceny ;
+        List<float> oceny=new List<float>() ;
         //Zachowania(metody)
        
         /// <summary>
