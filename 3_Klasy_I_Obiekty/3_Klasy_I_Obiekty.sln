@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 KartaOcennFilmow", "3 KArtaOcennFilmow\3 KartaOcennFilmow.csproj", "{344496D8-F1F4-4092-B1CD-7AD45E3F3F57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_4 Konstruktor", "3_4 Konstruktor\3_4 Konstruktor.csproj", "{B4AA4C59-66A7-4930-ADE5-B336FCFA0618}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{344496D8-F1F4-4092-B1CD-7AD45E3F3F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{344496D8-F1F4-4092-B1CD-7AD45E3F3F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{344496D8-F1F4-4092-B1CD-7AD45E3F3F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AA4C59-66A7-4930-ADE5-B336FCFA0618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AA4C59-66A7-4930-ADE5-B336FCFA0618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AA4C59-66A7-4930-ADE5-B336FCFA0618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AA4C59-66A7-4930-ADE5-B336FCFA0618}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
