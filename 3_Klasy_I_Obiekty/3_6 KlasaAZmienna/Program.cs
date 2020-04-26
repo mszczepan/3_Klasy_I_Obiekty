@@ -11,10 +11,11 @@ namespace _3_6_KlasaAZmienna
         static void Main(string[] args)
         {
             Karta karta= new Karta();
+            Karta karta3;
             karta.DodajOcene(3);
             karta.DodajOcene(6);
 
-            Karta karta2 = new Karta();
+            Karta karta2 = karta;
             karta2.DodajOcene(4);
         }
     }
