@@ -13,8 +13,23 @@ namespace _3_KartaOcenFilmow
         }
         //Stan (zmienne -pola)
         List<float> oceny;
+
+
+
         //Zachowania(metody)
-       
+
+
+        internal KartaStatystki ObliczStatystki()
+        {
+
+            KartaStatystki stat = new KartaStatystki();
+            stat.SredniaOcena=oceny.Average();
+            stat.NajnizszaOcena= oceny.Min();
+            stat.NajwyzszaOcena=oceny.Max();
+
+            return stat;
+        }
+
         /// <summary>
         /// Dodaje nową ocenę do listy ocen
         /// </summary>

@@ -11,53 +11,61 @@ namespace _3_KartaOcenFilmow
         {
 
             Karta karta=new Karta();
-            Karta kartaUzytkownika = new Karta();
+          //  Karta kartaUzytkownika = new Karta();
             karta.DodajOcene(6);
             karta.DodajOcene(8);
             karta.DodajOcene(3);
             karta.DodajOcene(4.4f);
-            karta.DodajOcene(3.7f);
 
-            var srednia=karta.ObliczSrednia();
-            float max = karta.NajwyzszaWartosc();
-            float min= karta.NajnizszaOcena();
+            KartaStatystki  statystki = karta.ObliczStatystki();
 
-            for (; ; )
-            {
-                
-                Console.WriteLine("Podaj ocene z zakresu 1-10 ");
-                float ocena;
-                bool wynik =float.TryParse(Console.ReadLine(),out ocena);
+            Console.WriteLine("Srednia ocena " + statystki.SredniaOcena);
+            Console.WriteLine("Najwyższa ocena " + statystki.NajwyzszaOcena);
+            Console.WriteLine("Najniższa ocena " + statystki.NajnizszaOcena);
 
-                if (wynik)
-                {
-                    if (ocena == 11)
-                    {
-                        break;
-                    }
+            //karta.DodajOcene(4.4f);
+            //karta.DodajOcene(3.7f);
 
-                    if (ocena > 0 && ocena <= 10)
-                    {
-                        kartaUzytkownika.DodajOcene(ocena);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Liczba z poza zakresu ");
-                    }
-                }
+            //var srednia=karta.ObliczSrednia();
+            //float max = karta.NajwyzszaWartosc();
+            //float min= karta.NajnizszaOcena();
 
-                else
-                {
-                    Console.WriteLine("To nie jest liczba ");
-                }
-           
-            }
+            //for (; ; )
+            //{
 
-            Console.WriteLine("Srednia ocena "+ kartaUzytkownika.ObliczSrednia());
-            Console.WriteLine("Najniższa ocena to " + kartaUzytkownika.NajnizszaOcena());
-            Console.WriteLine("Najwyzsza ocena to " + kartaUzytkownika.NajwyzszaWartosc());
+            //    Console.WriteLine("Podaj ocene z zakresu 1-10 ");
+            //    float ocena;
+            //    bool wynik =float.TryParse(Console.ReadLine(),out ocena);
 
-            Console.ReadKey();
+            //    if (wynik)
+            //    {
+            //        if (ocena == 11)
+            //        {
+            //            break;
+            //        }
+
+            //        if (ocena > 0 && ocena <= 10)
+            //        {
+            //            kartaUzytkownika.DodajOcene(ocena);
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Liczba z poza zakresu ");
+            //        }
+            //    }
+
+            //    else
+            //    {
+            //        Console.WriteLine("To nie jest liczba ");
+            //    }
+
+            //}
+
+            //Console.WriteLine("Srednia ocena "+ kartaUzytkownika.ObliczSrednia());
+            //Console.WriteLine("Najniższa ocena to " + kartaUzytkownika.NajnizszaOcena());
+            //Console.WriteLine("Najwyzsza ocena to " + kartaUzytkownika.NajwyzszaWartosc());
+
+            //Console.ReadKey();
         }
     }
 }
