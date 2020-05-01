@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_4 Konstruktor", "3_4 Kons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_6 KlasaAZmienna", "3_6 KlasaAZmienna\3_6 KlasaAZmienna.csproj", "{2416B3E4-F3F7-42F7-8180-9740BAFF0C90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_2 Typy_referencyjne", "4_2 Typy_referencyjne\4_2 Typy_referencyjne.csproj", "{3BA31B93-6EDB-482E-9208-4AC30ADB78C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_4 Parametry metody", "4_4 Parametry metody\4_4 Parametry metody.csproj", "{4D9D0D09-4A1E-487E-ACD0-15591CBCA55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{2416B3E4-F3F7-42F7-8180-9740BAFF0C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2416B3E4-F3F7-42F7-8180-9740BAFF0C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2416B3E4-F3F7-42F7-8180-9740BAFF0C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA31B93-6EDB-482E-9208-4AC30ADB78C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA31B93-6EDB-482E-9208-4AC30ADB78C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA31B93-6EDB-482E-9208-4AC30ADB78C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA31B93-6EDB-482E-9208-4AC30ADB78C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9D0D09-4A1E-487E-ACD0-15591CBCA55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9D0D09-4A1E-487E-ACD0-15591CBCA55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9D0D09-4A1E-487E-ACD0-15591CBCA55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9D0D09-4A1E-487E-ACD0-15591CBCA55A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

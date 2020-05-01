@@ -1,4 +1,4 @@
-﻿namespace _3_KartaOcenFilmow
+﻿namespace _4_2_Typy_referencyjne
 {
     internal class KartaStatystki
     {

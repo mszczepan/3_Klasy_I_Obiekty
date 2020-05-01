@@ -23,6 +23,14 @@ namespace _3_KartaOcenFilmow
             Console.WriteLine("Najwyższa ocena " + statystki.NajwyzszaOcena);
             Console.WriteLine("Najniższa ocena " + statystki.NajnizszaOcena);
 
+            Karta karta1 = new Karta();
+            Karta karta2 = new Karta();
+            Karta karta3 = new Karta();
+            Karta karta4 = new Karta();
+            Karta karta5 = new Karta();
+            Karta karta6 = new Karta();
+
+            Console.WriteLine("Ilosc kart: " + Karta.Licznik);
             //karta.DodajOcene(4.4f);
             //karta.DodajOcene(3.7f);
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace _3_KartaOcenFilmow
+namespace _4_4_Parametry_metody
 {
     class Karta
     {
@@ -12,6 +12,7 @@ namespace _3_KartaOcenFilmow
             oceny = new List<float>();
             Licznik++;
         }
+        public string Nazwa;
         //Stan (zmienne -pola)
         List<float> oceny;
         public static float MinOcena = 0;

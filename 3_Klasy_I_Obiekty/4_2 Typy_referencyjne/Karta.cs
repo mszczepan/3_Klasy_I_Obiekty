@@ -3,20 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace _3_KartaOcenFilmow
+namespace _4_4_Parametry_metody
 {
     class Karta
     {
         public Karta()
         {
             oceny = new List<float>();
-            Licznik++;
         }
         //Stan (zmienne -pola)
         List<float> oceny;
-        public static float MinOcena = 0;
-        public static float MaxOcena = 20;
-        public static long Licznik = 0;
+        public string Nazwa;
+      
 
 
 
@@ -49,19 +47,7 @@ namespace _3_KartaOcenFilmow
         /// <returns>Średnia ocena</returns>
         public float ObliczSrednia()
         {
-            //float suma = 0;
-            //float srednia = 0;
-
-            //foreach (var ocena in oceny)
-            //{
-            //    suma += ocena;
-            //    srednia = suma / oceny.Count();
-            //}
-
-            //return srednia;
-
             return oceny.Average();
-
         }
 
         /// <summary>
@@ -70,7 +56,6 @@ namespace _3_KartaOcenFilmow
         /// <returns>Najniższa ocena</returns>
         public float NajnizszaOcena()
         {
-        
             return oceny.Min();
         }
 
@@ -81,7 +66,6 @@ namespace _3_KartaOcenFilmow
         public float NajwyzszaWartosc()
         {
             return oceny.Max();
-
         }
     }
 }

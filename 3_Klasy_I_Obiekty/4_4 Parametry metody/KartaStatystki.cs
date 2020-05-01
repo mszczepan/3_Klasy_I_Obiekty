@@ -1,4 +1,4 @@
-﻿namespace _3_KartaOcenFilmow
+﻿namespace _4_4_Parametry_metody
 {
     internal class KartaStatystki
     {
