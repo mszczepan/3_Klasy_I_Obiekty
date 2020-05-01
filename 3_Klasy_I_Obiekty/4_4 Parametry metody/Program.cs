@@ -9,14 +9,15 @@ namespace _4_4_Parametry_metody
     class Program
     {
 
-        static void UstawNazwe(Karta karta)
+        static void UstawNazwe(out Karta karta)
         {
+             karta = new Karta();
             karta.Nazwa = "Karta Marcina";
         }
 
-        static void ZwiekszNumer(int numer)
+        static void ZwiekszNumer(out int numer)
         {
-            numer++;
+            numer=42;
 
         }
         static void Main(string[] args)
@@ -24,12 +25,12 @@ namespace _4_4_Parametry_metody
             Karta karta1 = new Karta();
             Karta karta2 = karta1;
 
-            UstawNazwe(karta1);
+            UstawNazwe(out karta1);
 
             Console.WriteLine(karta2.Nazwa);
 
             int x1 = 6;
-             ZwiekszNumer(x1);
+             ZwiekszNumer(out x1);
             Console.WriteLine(x1);
 
         }
