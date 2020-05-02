@@ -3,25 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace _4_2_Typy_referencyjne
+namespace _4_8_Złożenia
+
 {
-    class Karta
+    public class Karta
     {
         public Karta()
         {
             oceny = new List<float>();
+            Licznik++;
         }
+        public string Nazwa;
         //Stan (zmienne -pola)
         List<float> oceny;
-        public string Nazwa;
-      
+        public static float MinOcena = 0;
+        public static float MaxOcena = 20;
+        public static long Licznik = 0;
 
 
 
         //Zachowania(metody)
 
 
-        internal KartaStatystki ObliczStatystki()
+        public KartaStatystki ObliczStatystki()
         {
 
             KartaStatystki stat = new KartaStatystki();
@@ -47,7 +51,19 @@ namespace _4_2_Typy_referencyjne
         /// <returns>Średnia ocena</returns>
         public float ObliczSrednia()
         {
+            //float suma = 0;
+            //float srednia = 0;
+
+            //foreach (var ocena in oceny)
+            //{
+            //    suma += ocena;
+            //    srednia = suma / oceny.Count();
+            //}
+
+            //return srednia;
+
             return oceny.Average();
+
         }
 
         /// <summary>
@@ -56,6 +72,7 @@ namespace _4_2_Typy_referencyjne
         /// <returns>Najniższa ocena</returns>
         public float NajnizszaOcena()
         {
+        
             return oceny.Min();
         }
 
@@ -66,6 +83,7 @@ namespace _4_2_Typy_referencyjne
         public float NajwyzszaWartosc()
         {
             return oceny.Max();
+
         }
     }
 }
