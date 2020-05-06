@@ -18,7 +18,8 @@ namespace _5_2_Metody
             karta1.DodajOcene(8);
             karta1.DodajOcene(6);
 
-            karta1.Nazwa = "Karta Marcina";
+            karta1.Nazwa = "karta Marcina";
+            karta1.Nazwa = null;
             Console.WriteLine(karta1.Nazwa);
             //    KartaStatystki stat = karta1.ObliczStatystki();
 

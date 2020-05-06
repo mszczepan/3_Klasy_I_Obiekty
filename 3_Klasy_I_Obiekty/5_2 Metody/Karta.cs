@@ -13,8 +13,21 @@ namespace _5_2_Metody
             oceny = new List<float>();
             Licznik++;
         }
-        //public string Nazwa;
-        public String Nazwa { get; set; }
+        public string _nazwa;
+        public String Nazwa
+        {
+            get 
+            {
+                return _nazwa.ToUpper();
+            }
+            set 
+            { 
+                if (!String.IsNullOrEmpty(value))
+                {
+                    _nazwa = value;
+                }
+            } 
+        }
 
         //Stan (zmienne -pola)
         List<float> oceny;
