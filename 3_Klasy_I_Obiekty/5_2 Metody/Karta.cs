@@ -13,7 +13,9 @@ namespace _5_2_Metody
             oceny = new List<float>();
             Licznik++;
         }
-        public string Nazwa;
+        //public string Nazwa;
+        public String Nazwa { get; set; }
+
         //Stan (zmienne -pola)
         List<float> oceny;
         public static float MinOcena = 0;
